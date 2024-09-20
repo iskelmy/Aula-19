@@ -6,7 +6,7 @@ body {
 header {
   background-color: white;
   padding: 10px 20px;
-  text-align: center;
+  text-align: center; /* deixa o texto no meio da tela */ 
   border-bottom: 1px solid #ffff;
 }
 nav {
@@ -64,7 +64,13 @@ div h3 {
   border-radius: 8%;
 }
 .grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
+    display: grid; /* possibilita controlar em que coluna e que linha um elemento começa e termina */
+    grid-template-columns: 1fr 1fr;   
 }
+
+.lista ul li{
+  list-style: none; /* remove a bolinha da lista */
+    line-height: 2; /* Ajuste este valor conforme necessário */
+    margin: 20px 0; /* Adiciona margem vertical entre os parágrafos */
+}
+
